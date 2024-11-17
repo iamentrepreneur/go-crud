@@ -9,5 +9,5 @@
 ```migrate -path ./schema -database 'postgres://postgres:qwerty@0.0.0.0:5432/postgres?sslmode=disable' up```
 
 ## Прокидываем migrate и обновляем PATH
-```export PATH=$PATH:$HOME/go/bin```
+```export PATH=$PATH:$HOME/go/bin```  
 ```source ~/.zshrc```
