@@ -1,6 +1,6 @@
 # Helpers
 
-```docker run --name=gocrud-db -e POSTGRES_PASSWORD='password' -p 5432:5432 -d --rm postgres```
+```docker run --name=gocrud-db -e POSTGRES_PASSWORD='qwerty' -p 5432:5432 -d --rm postgres```
 
 ```migrate create -ext sql -dir ./schema -seq init```
 
